@@ -1,0 +1,99 @@
+body {hover
+	font-size: 16px;
+	font-family: Arial;
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: gray;
+	
+	
+}
+
+.container{
+	margin-left: 0;
+	padding: 0;
+	width: 100%;
+	}
+
+.navbar-brand h1 { /*Logo name*/
+	font-family: Arial;
+	color: #fff;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	
+}
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+
+
+#collapsable-nav {
+	margin: 0;
+	padding: 0;
+}
+
+#nav-list {
+  margin: 0;
+  width: 100%;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  margin-right: 30px;
+}
+/** End header**/
+
+
+/* Main*/
+.container-fluid{
+margin: -10px 0 0 0;
+width: 100%;
+}
+.text-center{
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+}
+
+section{
+	background: gray;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+a{
+	color:black;
+}
+a:hover{
+	color:#fff;
+	text-shadow: 1px 1px 1px #222;
+}
+
+}
+.col-md-12 .col-sm-12 .col-xs-12{
+	padding: 0;
+}
+
+#Chicken, #Beef, #Sushi{
+	font-family: Arial;
+	font-size: 1.5em;
+	margin: 0;
+	text-align: center;
+}
